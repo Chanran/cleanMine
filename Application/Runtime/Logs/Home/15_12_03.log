@@ -1,0 +1,210 @@
+[ 2015-12-03T20:54:05+08:00 ] 172.16.113.116 /index.php/Home/Index/loginNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2015-12-03T20:54:10+08:00 ] 172.16.113.116 /index.php/Home/Index/loginCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-03T20:54:14+08:00 ] 172.16.113.116 /index.php/Home/Index/loginCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' AND `pwd` = '48d6215903dff56238e52e8891380c8f' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-12-03T20:54:21+08:00 ] 172.16.113.116 /index.php/Home/Index/loginCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' AND `pwd` = '48d6215903dff56238e52e8891380c8f' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-12-03T20:54:27+08:00 ] 172.16.113.116 /index.php/Home/Index/loginNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-03T20:54:31+08:00 ] 172.16.113.116 /index.php/Home/Index/loginNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-12-03T20:54:38+08:00 ] 172.16.113.116 /index.php/Home/Index/loginCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-12-03T20:54:47+08:00 ] 172.16.113.116 /index.php/Home/Index/loginCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' AND `pwd` = '25f9e794323b453885f5181f1b624d0b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-03T20:54:54+08:00 ] 172.16.113.116 /index.php/Home/Index/loginCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' AND `pwd` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-12-03T20:55:05+08:00 ] 172.16.113.116 /index.php/Home/Index/registerNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-12-03T20:55:36+08:00 ] 172.16.113.189 /index.php/Home/Index/loginNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'lalalalala' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-12-03T20:57:07+08:00 ] 172.16.113.116 /index.php/Home/Index/loginNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-03T20:57:22+08:00 ] 172.16.113.189 /index.php/Home/Index/loginNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'lalalalal' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-12-03T20:58:26+08:00 ] 172.16.113.116 /index.php/Home/Index/loginNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'blue' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-12-03T20:58:43+08:00 ] 172.16.113.189 /index.php/Home/Index/loginCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'lalalalal' AND `pwd` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-12-03T20:58:55+08:00 ] 172.16.113.189 /index.php/Home/Index/registerNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'llllll' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-12-03T20:59:01+08:00 ] 172.16.113.189 /index.php/Home/Index/registerCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'llllll' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`name`,`pwd`,`cost_time`,`mine_num`,`create_time`,`register_time`) VALUES ('llllll','96e79218965eb72c92a549dd5a330112','0','0','20151203205901','20151203205901') [ RunTime:0.0091s ]
+
+[ 2015-12-03T21:06:22+08:00 ] 172.16.113.189 /index.php/Home/Index/createRecord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: validate /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `name`='llllll',`cost_time`='14',`mine_num`='24',`create_time`='20151203' WHERE `name` = 'llllll' [ RunTime:0.0048s ]
+
+[ 2015-12-03T21:52:03+08:00 ] 172.16.111.160 /index.php/Home/Index/loginNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'a' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-12-03T21:52:11+08:00 ] 172.16.111.160 /index.php/Home/Index/registerNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'a' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-12-03T21:52:21+08:00 ] 172.16.111.160 /index.php/Home/Index/registerCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'a' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`name`,`pwd`,`cost_time`,`mine_num`,`create_time`,`register_time`) VALUES ('a','0cc175b9c0f1b6a831c399e269772661','0','0','20151203215221','20151203215221') [ RunTime:0.0043s ]
+
+[ 2015-12-03T21:52:31+08:00 ] 172.16.111.160 /index.php/Home/Index/createRecord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `name`='a',`cost_time`='0',`mine_num`='30',`create_time`='20151203' WHERE `name` = 'a' [ RunTime:0.0041s ]
+
+[ 2015-12-03T21:56:28+08:00 ] 172.16.111.160 /index.php/Home/Index/loginNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'a' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-12-03T21:56:32+08:00 ] 172.16.111.160 /index.php/Home/Index/loginCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'a' AND `pwd` = '0cc175b9c0f1b6a831c399e269772661' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-12-03T21:57:06+08:00 ] 172.16.111.160 /index.php/Home/Index/createRecord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `name`='a',`cost_time`='25',`mine_num`='26',`create_time`='20151203' WHERE `name` = 'a' [ RunTime:0.0043s ]
+
+[ 2015-12-03T22:03:23+08:00 ] 172.16.111.160 /index.php/Home/Index/loginNameCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'a' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2015-12-03T22:03:27+08:00 ] 172.16.111.160 /index.php/Home/Index/loginCheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `name` = 'a' AND `pwd` = '0cc175b9c0f1b6a831c399e269772661' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-12-03T22:03:39+08:00 ] 172.16.111.160 /index.php/Home/Index/createRecord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /var/web/cleanMine/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `name`='a',`cost_time`='6',`mine_num`='26',`create_time`='20151203' WHERE `name` = 'a' [ RunTime:0.0044s ]
+

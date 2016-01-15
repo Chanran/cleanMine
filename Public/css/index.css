@@ -1,0 +1,27 @@
+	#login-form{
+		border:1px solid black;
+		width:600px;
+		height:300px;
+		margin:0 auto;
+		margin-top:30px;
+		padding:10px 10px;
+		background-color:#D3D3D3;
+		color: #000000;
+		background-color: #ffffff;
+	}
+	#background{
+		background: url('../img/4.jpg') no-repeat;
+		background-position: center;
+		background-size: 100% 250%;
+	}
+	.transparent{
+		opacity:0.6;
+	}
+	.copyRight{
+		margin-top:30px;
+		opacity:0.6;
+	}
+	.copyRight p{
+		font-weight:bold;
+		font-size:20px;
+	}

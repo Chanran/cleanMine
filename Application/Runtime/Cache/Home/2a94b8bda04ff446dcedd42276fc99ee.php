@@ -1,0 +1,67 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>登录与注册</title>
+	<link rel="stylesheet" type="text/css" href="/cleanMine/Public/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/cleanMine/Public/css/index.css">
+</head>
+<body id="background">
+	<h1 style="text-align:center">扫雷游戏</h1>
+	<div class="container transparent">
+		<div id="login-form">
+		<h3 style="text-align:center">登录</h3>
+			<div class="form-horizontal" style="margin-top:30px">
+				<div class="form-group">
+					<label for="loginName" class="col-sm-2 control-label">你的昵称</label>
+					<div class="col-sm-10">
+						<input name="name" type="text" class="form-control" id="loginName" placeholder="你的昵称" required></div>
+				</div>
+				<div class="form-group">
+					<label for="pwd" class="col-sm-2 control-label">你的密码</label>
+					<div class="col-sm-10">
+						<input name="pwd" type="password" class="form-control" id="pwd" placeholder="你的密码" minlength="6"  maxlength="20" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button id="login" type="type" class="btn btn-success">登录</button>
+						<a><button id="registerBtn" type="button" class="btn btn-primary" style="margin-left:40px" data-toggle="modal" data-target=".bs-example-modal-lg" >注册</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+				<h3 style="text-align:center">注册</h3>
+					<div style="padding:20px 30px">
+							<div class="form-group">
+								<label for="registerName">昵称</label>
+								<input name="name" type="text" class="form-control" id="registerName" placeholder="你的昵称" required></div>
+							<div class="form-group">
+								<label for="pwd1">密码</label>
+								<input name="pwd" type="password" class="form-control" id="pwd1" placeholder="你的密码" minlength="6"  maxlength="20" required>
+							</div>
+							<div class="form-group">
+								<label for="pwd2">再次确认密码</label>
+								<input type="password" class="form-control" id="pwd2" placeholder="再输入密码" minlength="6"  maxlength="20" required>
+							</div>
+							
+							<button id="register" type="submit" class="btn btn-info" >注册</button>
+							<button id="reset" type="reset" class="btn btn-danger" style="margin-left:30px">重置</button>
+							<a href="#" style="float:right">找回密码</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="copyRight">
+		<p style="text-align:center">@COPYRIGHT : 蓝灿荣　凌大未　林泽鹏</p>
+	</div>
+	<script type="text/javascript" src="/cleanMine/Public/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="/cleanMine/Public/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/cleanMine/Public/js/index.js"></script>
+</body>
+</html>
