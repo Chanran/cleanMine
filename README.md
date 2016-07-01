@@ -1,7 +1,7 @@
 # cleanMine web version
 > thinkphp3.2+bootstrap3
 >
-> use_time:3 days.(practice~~)
+> use time:3 days.(practice~~and need to have class...)
 >
 > purpose:just for curriculum design.
 
